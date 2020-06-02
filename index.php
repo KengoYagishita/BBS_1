@@ -139,8 +139,7 @@ $disp_data = array_slice($dataArr, $start_no, MAX, true);
 		<?php foreach($disp_data as $data): ?>
 			<article>
 				<div class="info">
-					<h2><?=e($data["name"]) ?></h2>
-					<p>(<?=e($data["gender"]) ?>)</p>
+					<h2><?=e($data["name"]) ?> (<?=e($data["gender"]) ?>)</h2>
 				</div>
 				<p><?=e($data["comment"]) ?></p>
 			</article>
